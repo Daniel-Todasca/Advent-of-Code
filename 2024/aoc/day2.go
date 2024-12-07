@@ -29,7 +29,7 @@ func isSafe(report []int) bool {
 	return true
 }
 
-func main() {
+func _main2() {
 	lines, err := aocReadFile("./inputs/day2/input.txt")
 	if err != nil {
 		panic(err)
