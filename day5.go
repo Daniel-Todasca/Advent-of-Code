@@ -45,7 +45,7 @@ func processPageOrder(pages []int) {
 	waitGroup.Done()
 }
 
-func main() {
+func _main5() {
 	input, err := aocReadFile("./inputs/day5/input.txt")
 	if err != nil {
 		panic(err)
