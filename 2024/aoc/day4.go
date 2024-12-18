@@ -68,7 +68,7 @@ func countMas(row int, col int, matrix []string) {
 	masGroup.Done()
 }
 
-func main() {
+func _main4() {
 	matrix, err := aocReadFile("./inputs/day4/input.txt")
 	if err != nil {
 		panic(err)
