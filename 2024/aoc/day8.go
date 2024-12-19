@@ -59,7 +59,7 @@ func checkPair(antenna Coord2D, other Coord2D) {
 	}
 }
 
-func main() {
+func _main8() {
 	lines, err := aocReadFile("./inputs/day8/input.txt")
 	if err != nil {
 		panic(err)
