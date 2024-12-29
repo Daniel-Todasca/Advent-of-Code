@@ -98,7 +98,7 @@ func moveSequencesToFreeSpaces() {
 	}
 }
 
-func main() {
+func _main9() {
 	lines, err := aocReadFile("./inputs/day9/input.txt")
 	if err != nil {
 		panic(err)
